@@ -18,21 +18,21 @@ Este es un mod mejorado de AIOPhish -Mejora por @AnibalTlgram
 
 ## Ejecuten el instalador tiene dependencias nuevas!
 
- Pasos previos para usar Localhost.run en la herramienta
+ No te funciona ngrok? Prueba localhost.run pasos para usar:
 * `ssh-keygen`
-* `Enter o ingresas una ruta que quieras para las llaves`
-* `Escribe una frase cualquiera (No la olvides por ahora)`
+* `Te preguntara por una ruta, da enter`
+* `Escribe una frase cualquiera (No la olvides puede volver a preguntarla)`
 * `Vuelve a escribir la frase`
 * `Ejecuta ssh -R 80:localhost:80 localhost.run`
 * `Escribe yes y ingresa tu frase anterior y listo`
-* `Puedes cerrar Localhost.run con control +c y ejecutar la herramienta` 
+* `Puedes cerrar Localhost.run con control +c y ejecutar aiophish-mod` 
 * `En ubuntu vuelve a preguntar por la frase, recuerdala y clickea que recuerde la contraseña`
 
 
 # No funciona por ahora en Termux
 
 ### Video de uso y instalacion (Se descarga):
-https://github.com/AnibalGthub/AIOPhish-Mod/raw/main/Aiophish-2021-08-31_13.44.12.mp4
+
 
 ### Imagen de funcionamiento:
 https://github.com/AnibalGthub/AIOPhish-Mod/blob/main/Screenshot_2021-09-01_10_18_44.png
