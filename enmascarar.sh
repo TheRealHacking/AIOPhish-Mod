@@ -35,4 +35,5 @@ read words
 printf "\e[0m\n"
 final=$mask-$words@$shorter
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Esta es la URL enmascarada:\e[32m ${final} \e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Puedes cerrar esta terminal,ya copiado el link falso\e[0m\n"
 sleep 100
