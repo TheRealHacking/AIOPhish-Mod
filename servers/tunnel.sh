@@ -113,7 +113,7 @@ ngrok(){
         echo -e "$v[$b*$v]$b Enpezando..."
         sleep 2
         cd $OLDPWD
-        echo -e "$v[$b*$v]$b Verifica una buena conexión de internet"
+        echo -e "$v[$b*$v]$b No cierres la terminal de Ngrok"
         sleep 5
         sleep 5
         envialink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[*]\.ngrok.io")
@@ -127,7 +127,7 @@ ngrok(){
                 sleep 5
                 cd $ruta_carpeta
                 #disfraz
-                echo -e "$v[$b*$v]$b Deseas ocultar el link?\e[0;32m"
+                echo -e "$v[$b*$v]$b Deseas ocultar/enmascarar el link?\e[0;32m"
 		read -p $'\e[1;39m[\e[1;39m*\e[1;39m]\e[1;32m Elige una opción si/no:\e[1;39m ' cho
             
        		
